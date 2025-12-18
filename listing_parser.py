@@ -3,6 +3,8 @@ from urllib.parse import urljoin
 
 BASE_URL = "https://www.adb.org"
 
+
+
 def parse_listing_page(html: str) -> list[dict]:
     """
     Parse ADB projects listing page HTML and extract summary project data.
